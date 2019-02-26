@@ -1,3 +1,4 @@
+
 #First Laboratory Work
 
 Task: Create a program in which you will use 5 Creational Design Patterns:
@@ -7,8 +8,6 @@ Task: Create a program in which you will use 5 Creational Design Patterns:
 * Factory
 * Prototype
 * Singleton
-
---
 
 Abstract Factory Design Pattern
 --
