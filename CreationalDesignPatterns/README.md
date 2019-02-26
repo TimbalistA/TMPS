@@ -9,7 +9,7 @@ Task: Create a program in which you will use 5 Creational Design Patterns:
 * Prototype
 * Singleton
 
-Abstract Factory Design Pattern
+Abstract Factory Design Pattern Design Pattern
 --
 ![](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/AbstractFactoryPattern-2.png)
 
@@ -26,7 +26,7 @@ As an example,I supposed that I wanted to build a global home factory. For this 
 
 Here we need another layer of abstraction which will identify the location and internally use correct home factory implementation without even giving a single hint to user. This is exactly the problem, which abstract factory pattern is used to solve.
 
-Builder
+Builder Design Pattern
 --
 Builder pattern builds a complex object using simple objects and using a step by step approach. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
 
@@ -40,13 +40,13 @@ Currently there are only three fields, but all of them should be useful. What ca
 
 In order not to duplicate the fields in the building class, I simply start the inner class. It has access to private fields of parent class and can display them directly.
 
-Factory
+Factory Design Pattern
 --
 ![image](https://user-images.githubusercontent.com/36602388/53429676-c36d4600-39f5-11e9-89e1-0e97907f3030.png)
 
 UML class diagram to understand the Factory Method design pattern.
 
-Implementaion
+Implementaion:
 
 I developed the Factory Method pattern in the java program using - Jewellery Store. The Store makes various types of jewellery for the customer.
 
@@ -80,9 +80,22 @@ FactoryDesignPattern.java
 
 In the above code I have created FactoryDesignPattern class which consists of main() method. In this main() method I have created BaseJewelleryStore class object known as jewelleryStore. Using this object I have called createJewellery() method for both rose gold and white gold jewellery.
 
+Prototype Design Pattern
+--
+Prototype allows us to hide the complexity of making new instances from the client. The concept is to copy an existing object rather than creating a new instance from scratch, something that may include costly operations.
 
+Prototype patterns is required, when object creation is time consuming, and costly operation, so we create object with existing object itself. One of the best available way to create object from existing objects are clone() method. Clone is the simplest approach to implement prototype pattern.
 
+Singleton Design Pattern
+--
 
+The singleton design pattern is used to restrict the instantiation of a class and ensures that only one instance of the class exists in the JVM. In other words, a singleton class is a class that can have only one object (an instance of the class) at a time per JVM instance. There are various ways to design/code a singleton class.
+
+To implement a Singleton pattern, we have different approaches but all of them have the following common concepts.
+
+* Private constructor to restrict instantiation of the class from other classes.
+* Private static variable of the same class that is the only instance of the class.
+* Public static method that returns the instance of the class, this is the global access point for outer world to get the instance of the singleton class.
 
 
 
