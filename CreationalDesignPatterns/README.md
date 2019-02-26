@@ -11,14 +11,8 @@ Task: Create a program in which you will use 5 Creational Design Patterns:
 
 Abstract Factory Design Pattern Design Pattern
 --
-![](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/AbstractFactoryPattern-2.png)
 
-UML class diagram example for the Abstract Factory Design Pattern.
-
-* AbstractFactory : Declares an interface for operations that create abstract product objects.
-* ConcreteFactory : Implements the operations declared in the AbstractFactory to create concrete product objects.
-* Product : Defines a product object to be created by the corresponding concrete factory and implements the AbstractProduct interface.
-* Client : Uses only interfaces declared by AbstractFactory and AbstractProduct classes.
+Abstract Factory design pattern is one of the Creational pattern. Abstract Factory pattern is almost similar to Factory Pattern is considered as another layer of abstraction over factory pattern. Abstract Factory patterns work around a super-factory which creates other factories.
 
 Implementation:
 
@@ -42,9 +36,8 @@ In order not to duplicate the fields in the building class, I simply start the i
 
 Factory Design Pattern
 --
-![image](https://user-images.githubusercontent.com/36602388/53429676-c36d4600-39f5-11e9-89e1-0e97907f3030.png)
 
-UML class diagram to understand the Factory Method design pattern.
+The Factory method is used to make different objects from the factory that are sometimes linked to as items and encapsulate the code for creating.
 
 Implementaion:
 
