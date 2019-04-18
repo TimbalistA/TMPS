@@ -15,3 +15,9 @@ Memento pattern uses three actor classes. Memento contains state of an object to
 State
 --
 The main idea of State pattern is to allow the object for changing its behavior without changing its class. Also, by implementing it, the code should remain cleaner without many if/else statements.
+
+Template
+--
+Template method design pattern is to define an algorithm as skeleton of operations and leave the details to be implemented by the child classes.
+![](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/claasDia.jpg)
+
