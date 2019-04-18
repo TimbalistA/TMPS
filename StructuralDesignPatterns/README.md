@@ -37,3 +37,8 @@ As in the decorator pattern, proxies can be chained together. The client, and ea
 When to use this pattern?:
 
 Proxy pattern is used when we need to create a wrapper to cover the main object’s complexity from the client.
+
+Composite
+--
+Composite design patten allows you to have a tree structure and ask each node in the tree structure to perform a task.
+![](http://3.bp.blogspot.com/-V9LlijmneWM/UGMwWPrgt3I/AAAAAAAAAac/vQp5-muqiDo/s1600/CompositeDesignPatternGenericHierarchy.gif)
